@@ -21,15 +21,10 @@ check_errors = pygame.init()
 # pygame.init() example output -> (6, 0)
 # second number in tuple gives number of errors
 
-
-
-
 # Initialise game window
 pygame.init()
 pygame.display.set_caption('Snake Eater')
 game_window = pygame.display.set_mode((frame_size_x, frame_size_y))
-
-
 
 # FPS (frames per second) controller to set the speed of the game
 fps_controller = pygame.time.Clock()
